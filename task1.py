@@ -14,3 +14,9 @@ Enter the # of days in the month: 30
 You earned $0.2 interest. 
 (2 points) 
 """
+
+p = int(input("\n\nEnter your rate: "))
+r = int(input("\n\nEnter your amount: "))
+t = int(input("\n\nEnter the # of days in the month: "))
+I = p*r*t
+print(f"You earned ${I} this month")

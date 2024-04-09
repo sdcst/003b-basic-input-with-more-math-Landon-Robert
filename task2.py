@@ -14,3 +14,7 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+
+CAD = int(input("\n\nHow many Canadian Dollars do you have?: "))
+USD = CAD * 0.74
+print(f"\n\nYou have ${USD} USD")
